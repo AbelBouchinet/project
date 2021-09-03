@@ -1,3 +1,29 @@
 h1 {
 	color: blue;
 }
+
+nav.menu-nav ul li.btn a{
+	text-decoration: none;
+	color: grey;
+	background-color: white;
+	padding: 10px;
+	display: block;
+	position: relative;
+
+}
+
+nav.menu-nav ul li.btn:hover a{
+     color: white;
+     background-color: blue;
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+
+}
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+}
+
+
