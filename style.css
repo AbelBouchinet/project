@@ -1,32 +1,26 @@
-h1 {
-	color: blue;
-}
-
-nav.menu-nav ul li.btn a{
-	text-decoration: none;
-	color: grey;
-	background-color: white;
-	padding: 30px;
+.header {
+	position: relative;
 	
-
 }
-
-nav.menu-nav ul li.btn:hover a{
-     color: white;
-     background-color: blue;
-}
-
-nav.menu-nav ul li.btn{
+	
+.menu-nav {
 	display: inline-block;
-	float: right;
-	
+}
 
-	
+
+
+.menu-item {
+	list-style-type: none;
+	float:left;
+	width:100px;
+
+
 
 }
 
-nav.menu-nav ul li.btn{
-    list-style-type: none;
-}
+
+  
+
+
 
 
