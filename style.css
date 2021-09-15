@@ -1,11 +1,6 @@
 .header {
 	display: flex;
-	justify-content: space-between;
-
-
-	
-
-	
+	justify-content: space-between;	
 }
 
 .menu-nav {
@@ -16,7 +11,7 @@
 .menu-nav a {
 	text-decoration: none;
 	color:grey;
-	word-spacing: 2px;
+	margin-left: 50px;
 
 }
 
@@ -24,11 +19,12 @@
 	display: inline-block;
 	list-style-type: none;
 	text-decoration: none;
+	font-size: 15px;
 
 }
 
-.menu-item hover a{
-	color: blue;
+.menu-nav ul li.menu-item:hover a{
+     border-top: 2px solid blue;
 }
 
   
