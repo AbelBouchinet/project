@@ -20,11 +20,12 @@
 	list-style-type: none;
 	text-decoration: none;
 	font-size: 15px;
-
+	margin: 20px;
 }
 
 .menu-nav ul li.menu-item:hover a{
-     border-top: 2px solid blue;
+    border-top: 2px solid blue;
+	padding-top: 20px;
 }
 
 .nav h5 {
@@ -51,6 +52,14 @@
 	font-weight: bold;
 	font-size: 12px;
 
+}
+
+.filters a {
+	margin: 5px;
+	padding: 10px;
+	border: solid gray;
+	border-radius: 20px;
+	cursor: pointer;
 }
 
 
